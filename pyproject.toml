@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "claude-agent-sandbox"
+version = "0.1.0"
+description = "Three extracted safety patterns for filesystem-queued LLM agents: atomic claiming, directory-as-state-machine, and prompt fencing/tool-grant enforcement."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Bre Thorup" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["claude_agent_sandbox*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
