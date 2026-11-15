@@ -1,5 +1,7 @@
 # claude-agent-sandbox
 
+[![CI](https://github.com/brebuilds/claude-agent-sandbox/actions/workflows/ci.yml/badge.svg)](https://github.com/brebuilds/claude-agent-sandbox/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 Three safety patterns extracted from a working personal agent runner, written up as
 an engineering record rather than marketing copy. **This is not a framework** — there
 is no orchestration layer, no CLI, no config system. It is three small, dependency-free
